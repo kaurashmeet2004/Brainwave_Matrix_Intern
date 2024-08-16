@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+:root {
+   --main-bg-color: #ede8ea;
+}
+@keyframes load{
+   0%{
+       width:201px;
+   }
+   25%{
+       width:708px;
+   }
+   50%{
+       width:1200px;
+   }
+   75%{
+       width:1600px;
+   }
+   100%{
+       width: 2000px;
+   }
+}
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.progress{
+    background-color: #503530;
+    height: 3px;
+    animation:load 2s ease-in-out 1;
+}
+img{
+    /* animation:rotate 1s ease-in  infinite; */
+    display: block;
+    margin: auto;
+}
+
+.myimage1{
+   width: 1923px;
+   height:800px ;
+   margin-left: 0px;
+  margin-right: 0px;
+  margin-top: -17px;
+  background: url("8aecc08c6ab1dabc90a8762a95def828.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main{
+   background: url("grungy-peach-marble-textured-background_53876-102650.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.content {
+   position: relative;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.content .myimage1 {
+   position: relative;
+   /* max-width: 600px; */
+}
+
+.content .myimage1 h2 {
+   color: #c19c8c;
+   font-size: 60px;
+   /* line-height: -1.6em; */
+   font-weight: 400;
+   margin-left: 1200px;
+   margin-top: 349px;
+}
+
+ .content .myimage1 h2 span {
+   color: white;
+  font-size: 1.2em;
+  font-weight: 900;
+  /* margin-left: 1375px; */
+  margin-top: 222px;
+}
+
+.content .myimage1 p {
+   color: #8C5C51;
+  margin-left: 1200px;
+  margin-top: 22px;
+  /* margin-left: 346px; */
+  font-size: 22px;
+}
+
+.content .myimage1 a {
+   display: inline-block;
+  margin-top: 31px;
+  padding: 8px 20px;
+  background: white;
+  color: #83564b;
+  border-radius: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin-left: 1200px;
+} 
+
+header {
+   background: var(--main-bg-color);
+   font-family: "Edu AU VIC WA NT Hand", cursive;
+   /* border: 2px solid lavender; */
+}
+
+nav {
+   display: flex;
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+   /* margin-top: -95px;
+  margin-left: 25vw;
+  box-sizing: border-box;
+  margin-bottom: -97px; */
+}
+
+.logo img {
+   width: 334px;
+  padding: 0 25px;
+  justify-content: space-around;
+  margin-top: -95px;
+  margin-left: 25vw;
+  box-sizing: border-box;
+  margin-bottom: -97px;
+}
+
+nav ul {
+   height: 106px;
+  display: flex;
+  
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: -73px;
+  position: relative;
+  
+  margin-right: -393px;
+  margin-left: 237px;
+  font-size: 20px;
+}
+
+nav ul li {
+   list-style: none;
+   padding: 0 43px;
+}
+
+nav ul li a {
+   color: #503530;
+   text-decoration: none;
+}
+
+nav ul li a:hover {
+   color: #503530;
+   font-weight: bold;
+}
+
+.search {
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: end;
+}
+
+.search input {
+   width: 25vw;
+  height: 26px;
+  border-radius: 16px;
+  margin: 0 23px 0 136px;
+  padding: 0 12px;
+  display: inline-block;
+}
+
+/* .search button {
+   font-family: "Edu AU VIC WA NT Hand", cursive;
+   font-weight: 900;
+} */
+.search img{
+  height: 45px;
+  width: 45px;
+}
+
+
+.search  .profile img{
+   width: 80px;
+   height: 29px;
+  padding: 0 25px;
+  justify-content: space-around;
+  /* margin-top: -95px; */
+  margin-left: -2vw;
+  box-sizing: border-box;
+  /* margin-bottom: -97px; */
+}
+.search  .cart img{
+   width: 76px;
+   height: 25px;
+   padding: 0 25px;
+   justify-content: space-around;
+   margin-top: -11px;
+   margin-left: -2vw;
+   box-sizing: border-box;
+   margin-bottom: -98px;
+}
+
+
+.card {
+   max-width: 100vw;
+  margin: auto;
+    
+  /* background: #ede8ea; */
+  margin-top: -39px;
+}
+.cards{
+   display: flex;
+   overflow: hidden;
+   /* flex-direction: column; */
+   /* justify-content: center; */
+    /* background: #ede8ea; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.card-item {
+   display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 15px;
+}
+
+
+.card h2 {
+   font-family: "Edu AU VIC WA NT Hand", cursive;
+  margin-top: 113px;
+  margin-bottom: 68px;
+  margin-left: 45px;
+   /* background: #ede8ea; */
+} 
+
+/* .container {
+   min-height: calc(100vh - 58px - 12vh);
+} */
+.lines .text-centermy-3{
+   
+   box-sizing: border-box;
+   display: inline-block;
+   border: 1px solid #503530;
+   height: 35px;
+   width: 200px;
+   border-radius: 9px;
+   margin-left: 33px;
+   /* padding-left: 10px; */
+   padding-bottom: 33px;
+   color: #503530;
+   padding-top: 13px;
+   margin-top: 23px;
+}
+.lines .text-centermy-2{
+box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #503530;
+  height: 35px;
+  width: 200px;
+  border-radius: 9px;
+  margin-left: 7px;
+  padding-left: 10px;
+  padding-bottom: 33px;
+  color: #503530;
+  padding-top: 13px;
+  margin-top: 23px;
+}
+.text-centermy-2{
+
+}
+.lines .text-centermy-2 img{
+   box-sizing: border-box;
+  /* display: inline-block;
+  border: 1px solid #503530; */
+  margin-left: 121px;
+  margin-top: -22px;
+}
+.lines .text-centermy-3 img{
+   box-sizing: border-box;
+  /* display: inline-block;
+  border: 1px solid #503530; */
+  margin-left: 121px;
+  margin-top: -22px;
+}
+footer {
+   background-color: #ddc7be;
+
+}
+
+.footer {
+   display: flex;
+   padding: 23px 122px;
+   justify-content: space-evenly;
+   color: #c57059;
+}
+
+.footer ul {
+   list-style: none;
+}
+
+.footer>div {
+   width: 223px;
+}
+
+footer .footer-rights {
+   text-align: center;
+   color: #503530;
+   padding: 12px;
+}
